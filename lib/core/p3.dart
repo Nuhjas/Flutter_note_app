@@ -27,7 +27,7 @@ class _EmotionAnalysisScreenState extends State<EmotionAnalysisScreen> {
         "https://api-inference.huggingface.co/models/bhadresh-savani/distilbert-base-uncased-emotion";
     var headers = {
       "Authorization":
-          "Bearer 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",
+          "",
     };
     var payload = {
       "inputs": inputText,
